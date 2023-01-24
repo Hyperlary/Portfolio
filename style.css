@@ -237,7 +237,7 @@ transform: scale(1.15);
   
   font-size: 20px;
   font-weight: 500;
-  color: #2c3e50;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -252,8 +252,19 @@ transform: scale(1.15);
   background-color: whitesmoke;
   border-radius: 30px;
   box-shadow: 10px 5px grey;
-
+  transition: 1s;
 }
+
+.projet:hover h3{
+  color: #161513;
+  transition: 1s;
+}
+.projet:hover p{
+  color: rgb(159, 42, 0);
+  transition: 1s;
+}
+
+
 /* Section a propos */
 .a-propos{
    background-color: #161513;
@@ -325,9 +336,24 @@ transform: scale(1.15);
   margin-bottom: 40px;
 }
 
-.contact .row {
+.contact .row2 {
   justify-content: center;
   margin-bottom: 50px;
+}
+.col-1-of-2 .text:hover{
+  transform: scale(1.1);
+  border: solid white;
+  border-radius: 20px;
+}
+.col-1-of-2 .mail:hover{
+  transform: scale(1.1);
+  border: solid white;
+  border-radius: 20px;
+}
+.mess:hover{
+  transform: scale(1.1);
+  border: solid white;
+  border-radius: 20px;
 }
 
 .contact input[type="text"],
@@ -367,6 +393,20 @@ form{
   padding: 20px 0;
   background-color: #161513;
   width: 100vw;
+}
+.reseaux .row {
+  display: flex;
+justify-content: center;
+gap: 50px;
+}
+.col-1-of{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  
+  
 }
 
 .reseaux .container {
