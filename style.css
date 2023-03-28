@@ -199,6 +199,14 @@ transform: scale(1.15);
   gap: 20px;
   width: 100vw;
 }
+.suppr{
+  color: #161513;
+}
+.suppr:hover{
+  color: blue;
+  scale: (1.15);
+  text-decoration: underline;
+}
 
 .projets .container {
   margin: 0 auto;
